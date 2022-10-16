@@ -52,5 +52,5 @@ double MinElement(double[] array)
 double[] arr = CreateArrayRndDouble(6, 0, 100);
 PrintArrayDouble(arr);
 
-double raz = Math.Round(MaxElement(arr) - MinElement(arr), 2);
-Console.WriteLine($"Разница между максимальным и минимальным элементами массива = {raz}");
+double subtraction = Math.Round(MaxElement(arr) - MinElement(arr), 2);
+Console.WriteLine($"Разница между максимальным и минимальным элементами массива = {subtraction}");
